@@ -77,7 +77,9 @@ function App() {
           setMobileMenuOpen={setMobileMenuOpen}
         />
 
-        {renderSection()}
+        <main>
+          {renderSection()}
+        </main>
 
         <Footer setActiveSection={handleSectionChange} />
       </div>
